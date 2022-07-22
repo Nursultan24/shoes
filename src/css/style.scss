@@ -1,0 +1,40 @@
+@import "mixins";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+}
+
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 230px;
+}
+
+$museo100: 'Poppins',sans-serif;
+$museo200: 'Source Serif Pro',sans-serif;
+
+@mixin text($ff, $fz, $lh, $c){
+  font-family:$ff;
+  font-size: $fz;
+  line-height: $lh;
+  color: $c;
+}
+
+
+@import "header";
+@import "home";
+@import "desire";
+@import "feature";
+@import "gallary";
+@import "testimonials";
+@import "signup";
+@import "footer";
+@import "overlay";
+@import "about";
+@import "photos";
+@import "btn";

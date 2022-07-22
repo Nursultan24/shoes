@@ -1,0 +1,25 @@
+.photos{
+  background: aquamarine;
+
+  &__row{
+    display: flex;
+    margin: 20px 0;
+  }
+  &__card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0 40px;
+
+  }
+   &__card-title{
+     @include text($museo100,25px, 120%,#EE5514)
+
+   }
+  &__card-desc{
+    @include text($museo200,18px, 120%,#000);
+
+
+  }
+
+}

@@ -1,0 +1,12 @@
+.btn{
+  padding: 15px 30px;
+  @include text($museo200,18px,160%,#ffffff);
+  background: #EE5514;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  .btn:hover{
+    background: #ADFF2F;
+    transition: 1s;
+  }
+}

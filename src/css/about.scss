@@ -1,0 +1,19 @@
+.about{
+  padding: 50px 0;
+  background: black;
+  &__title{
+    @include text($museo100,61px, 120%,#EE5514);
+    text-align: center;
+  }
+  &__info{
+    @include text($museo200,18px, 15px,#ADFF2F);
+    &-title{
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    &-desc{
+      margin-bottom: 10px;
+      line-height: 150%;
+    }
+  }
+}

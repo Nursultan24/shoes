@@ -1,0 +1,36 @@
+.testimonials{
+  padding: 100px 0;
+  &__title{
+    text-align: center;
+    margin-bottom: 60px;
+    @include text($museo100, 44px, 130%, #1A0A03);
+  }
+  &__row{
+    display: flex;
+    column-gap: 80px;
+  }
+  &__info{
+  }
+  &__info-img{
+    &__info-title::before {
+      content: url("../images/testiBefore.svg");
+    }
+  }
+  &__info-title{
+    @include text($museo100, 22px, 150%, #1A0A03);
+    margin-top: 50px;
+  }
+  &__info-desc {
+    @include text($museo200, 14px, 160%, #1A0A03);
+    font-style: italic;
+    margin: 15px 0 20px;
+    opacity: 0.7;
+  }
+  &__info-name{
+    @include text($museo200, 18px, 160%, #1A0A03);
+  }
+  &__info-prof{
+    @include text($museo200, 14px, 160%, #1A0A03);
+    opacity: 0.8;
+  }
+}

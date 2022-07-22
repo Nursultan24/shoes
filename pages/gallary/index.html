@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallary</title>
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__left">
+                <h1 class="header__title">
+                    <img class="header__logo" src="../../src/images/logoImg.svg" alt="logo">
+                </h1>
+                <div class="header__nav">
+                    <a class="header__nav-link" href="../../index.html">Menu</a>
+                    <a class="header__nav-link" href="">Feature</a>
+                    <a class="header__nav-link" href="../about/index.html">About</a>
+                </div>
+            </div>
+            <div class="header__right">
+                <button type="submit" class="btn buy_btn">Buy now</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<main>
+  <section class="photos">
+      <img style="width: 100%;" src="../../src/images/photos.jpg" alt="">
+      <div class="container">
+          <div class="photos__row">
+              <img src="../../src/images/gallary/pumaRu.png" alt="">
+              <div class="photos__card">
+
+                  <h2 class="photos__card-title">Puma Running
+                      </h2>
+                  <p class="photos__card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorem ducimus, error fugiat hic illum iure modi nemo neque obcaecati, omnis optio pariatur perferendis perspiciatis praesentium provident quam qui quia rem repellat sapiente, sequi similique tempora velit veniam vero vitae.</p>
+              </div>
+      </div>
+          <div class="photos__row">
+              <div class="photos__card">
+
+                  <h2 class="photos__card-title">Puma Sneakers
+                  </h2>
+                  <p class="photos__card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorem ducimus, error fugiat hic illum iure modi nemo neque obcaecati, omnis optio pariatur perferendis perspiciatis praesentium provident quam qui quia rem repellat sapiente, sequi similique tempora velit veniam vero vitae.</p>
+              </div>
+              <img src="../../src/images/gallary/pumaSn.png" alt="">
+          </div>
+          <div class="photos__row">
+              <img src="../../src/images/gallary/pumaFe.png" alt="">
+              <div class="photos__card">
+
+                  <h2 class="photos__card-title">Puma Ferrari
+                  </h2>
+                  <p class="photos__card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorem ducimus, error fugiat hic illum iure modi nemo neque obcaecati, omnis optio pariatur perferendis perspiciatis praesentium provident quam qui quia rem repellat sapiente, sequi similique tempora velit veniam vero vitae.</p>
+              </div>
+          </div>
+          <div class="photos__row">
+              <div class="photos__card">
+
+                  <h2 class="photos__card-title">Puma RS-X Bold
+                  </h2>
+                  <p class="photos__card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolorem ducimus, error fugiat hic illum iure modi nemo neque obcaecati, omnis optio pariatur perferendis perspiciatis praesentium provident quam qui quia rem repellat sapiente, sequi similique tempora velit veniam vero vitae.</p>
+              </div>
+              <img src="../../src/images/gallary/pumaRS.png" alt="">
+          </div>
+
+      </div>
+
+  </section>
+</main>
+
+
+<div class="overlay">
+    <div class="popup">
+        <div class="popup__close">&#10006</div>
+        <div class="popup__buy">
+            <img class="popup__img" src="../../src/images/logoImg.svg" alt="">
+            <form class="popup__form" action="">
+                <h2 class="popup__form-title">PUMA Kyrgyzstan</h2>
+                <input  class="popup__form-input" name="name" placeholder="Имя" type="text">
+                <input  class="popup__form-input" name="phone" placeholder="Телефон" type="tel">
+                <label class="popup__form-label">
+                    <input type="checkbox">
+                    <span class="popup__form-label-text">Я принимаю пользовательское <br>
+                         соглашение</span>
+                </label>
+                <button class="popup__btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../../src/js/main.js"></script>
+</body>
+</html>

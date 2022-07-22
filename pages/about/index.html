@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__left">
+                <h1 class="header__title">
+                    <img class="header__logo" src="../../src/images/logoImg.svg" alt="logo">
+                </h1>
+                <div class="header__nav">
+                    <a class="header__nav-link" href="../../index.html">Menu</a>
+                    <a class="header__nav-link" href="">Feature</a>
+                    <a class="header__nav-link" href="../gallary/index.html">Gallary</a>
+                </div>
+            </div>
+            <div class="header__right">
+                <button type="submit" class="btn buy_btn">Buy now</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="about">
+        <div class="container">
+        <h2 class="about__title">About us</h2>
+            <div class="about__info">
+                <h3 class="about__info-title">Puma (компания)</h3>
+                <p class="about__info-desc">Puma SE — промышленная компания Германии, специализирующаяся на выпуске спортивной обуви, одежды, инвентаря и парфюмерии под торговой маркой Puma.</p>
+                <h4 class="about__info-title">История</h4>
+                <p class="about__info-desc">Вскоре после Первой мировой войны, в начале 1920-х годов, Дасслеры на семейном совете решили организовать семейное дело — пошив обуви. Первой продукцией семьи Дасслер были домашние тапочки и ортопедическая обувь для тренировок спортсменов-инвалидов (которых было много после войны). Материалом для них служило списанное военное обмундирование, а подошвы вырезали из старых автомобильных покрышек. Основную роль в этом семейном предприятии играли братья Адольф (Ади) и Рудольф (Руди) Дасслеры, в 1924 году они официально зарегистрировали «Обувную фабрику братьев Дасслер» («Gebrüder Dassler»). Два брата с противоположными характерами дополняли друг друга — Адольф — спокойный и уравновешенный производитель, в то время, как Рудольф — активный и коммуникабельный продавец</p>
+            </div>
+            <div class="about__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.4059129806083!2d74.5845729871112!3d42.85570635087966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9d3088356eb%3A0xb6b7beaa1240556a!2z0JDQt9C40Y8g0JzQvtC70Ls!5e0!3m2!1sru!2skg!4v1658482963642!5m2!1sru!2skg" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<div class="overlay">
+    <div class="popup">
+        <div class="popup__close">&#10006</div>
+        <div class="popup__buy">
+            <img class="popup__img" src="../../src/images/logoImg.svg" alt="">
+            <form class="popup__form" action="">
+                <h2 class="popup__form-title">PUMA Kyrgyzstan</h2>
+                <input  class="popup__form-input" name="name" placeholder="Имя" type="text">
+                <input  class="popup__form-input" name="phone" placeholder="Телефон" type="tel">
+                <label class="popup__form-label">
+                    <input type="checkbox">
+                    <span class="popup__form-label-text">Я принимаю пользовательское <br>
+                         соглашение</span>
+                </label>
+                <button class="popup__btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../../src/js/main.js"></script>
+</body>
+</html>

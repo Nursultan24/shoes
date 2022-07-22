@@ -1,0 +1,34 @@
+.home{
+  padding: 32px 0 118px;
+  position: relative;
+  &::before{
+    content: '';
+    background: linear-gradient(90deg, #EE5514 1.14%, rgba(238, 85, 20, 0) 133.88%);
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+    &__title{
+      width: 366px;
+      height: 216px;
+      @include text($museo100,61px, 120%,#1A0A03)
+    }
+    &__desc{
+      width: 326px;
+      height: 52px;
+      @include text($museo200,16px, 160%,#1A0A03);
+      opacity: 0.7;
+    }
+
+
+}

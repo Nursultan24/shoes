@@ -1,0 +1,41 @@
+.signup{
+  &__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-info {
+    width: 652px;
+    height: 334px;
+    padding: 63px;
+  }
+    &__info-title{
+      @include text($museo100,20px, 140%, #1A0A03);
+    }
+   &__info-sibtitle{
+     @include text($museo200,17px, 160%, #1A0A03);
+     opacity: 0.7;
+     font-style: italic;
+   }
+ &__form{
+   margin-top: 40px;
+   position: relative;
+   &-input{
+     width: 100%;
+     height: 50px;
+     border: 1px solid gray;
+     padding: 15px 70px 15px 15px;
+   }
+   &-btn{
+     position: absolute;
+     height: 50px;
+   }
+ }
+
+
+   }
+
+
+
+

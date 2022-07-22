@@ -1,0 +1,71 @@
+.footer{
+  padding: 100px 0;
+  position: relative;
+  &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #EE5514;
+    opacity: 0.04;
+    width: 100%;
+    height: 100%;
+  }
+  &__row{
+    display: flex;
+    border-bottom: 1px solid #A6A4A4;
+  }
+  &__card-1{
+    width: 30%;
+  }
+  &__card-2{
+    width: 20%;
+  }
+  &__card-3{
+    width: 20%;
+  }
+  &__card-4{
+    width: 30%;
+  }
+  &__card-title{
+    @include text($museo200,18px, 160%, #1A0A03);
+    opacity: 0.7;
+  }
+  &__card-email{
+    @include text($museo200,18px, 160%, #1A0A03);
+    opacity: 0.7;
+  }
+  &__card-name{
+    @include text($museo200,18px, 160%, #1A0A03);
+    font-family: Poppins,sans-serif;
+  }
+  &__card-desc{
+    @include text($museo200,18px, 160%, #1A0A03);
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+  &__form{
+    position: relative;
+    margin-top: 38px;
+  &-input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 10px 60px 10px 15px;
+  }
+    &-btn{
+      width: 80px;
+      height: 50px;
+     position: absolute;
+      right: 0;
+      top: 0;
+      padding: 10px;
+    }
+  }
+  &__end{
+    margin-top: 60px;
+    @include text($museo100,16px, 160%, #1A0A03);
+    opacity: 0.7;
+    text-align: center;
+  }
+}

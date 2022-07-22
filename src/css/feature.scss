@@ -1,0 +1,46 @@
+.feature{
+  padding: 50px 0;
+  &__text{
+    text-align: center;
+  }
+  &__subtitle{
+    @include text($museo100,20px,150%,#EE5514)
+  }
+  &__title{
+    @include text($museo100,44px,130%,#1A0A03);
+    margin: 10px 0 60px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+  &__card{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+    border-radius: 10px;
+    padding: 97px 0 61px;
+    width: 33.333333%;
+    transition: 1s;
+
+
+    &:hover{
+      background: #FFE4C4;
+
+      transition: 1s;
+
+    }
+    text-align: center;
+    &-title{
+      @include text($museo100,22px,150%,#1A0A03);
+    }
+    &-desc{
+      @include text($museo100,14px,160%,#1A0A03);
+      margin: 10px 0 20px;
+    }
+    &-link{
+      @include text($museo100,16px,160%,#EE5514);
+    }
+
+
+  }
+}

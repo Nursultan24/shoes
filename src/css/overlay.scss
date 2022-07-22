@@ -1,0 +1,73 @@
+.overlay{
+  width: 100%;
+  height: 100vh;
+  background: #00000080;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  padding: 0 50px;
+}
+
+.popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  background: white;
+  &__close{
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor:pointer;
+  }
+  &__buy{
+    max-width: 952px;
+    height: 500px;
+    display: flex;
+  }
+  &__img {
+    width: 50%;
+  }
+  &__form{
+    width: 50%;
+    padding: 60px;
+    &-title{
+      @include text($museo100,31px, 140%,#1A0A03)
+    }
+    &-input{
+      background: white;
+      box-shadow: 0 5px 48px rgba(49,47,47,0.1);
+      border-radius: 40px;
+      border: none;
+      width: 100%;
+      height: 50px;
+      padding-left: 32px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      &::placeholder{
+        @include text($museo200,15px, 18px,#C6C5C5)
+      }
+    }
+&-label{
+  display: flex;
+  align-items: center;
+  column-gap: 7px ;
+  margin-bottom: 15px;
+  white-space: nowrap;
+  &-text{
+    @include text($museo200,13px, 15px,#1A0A03)
+  }
+}
+  }
+  &__btn{
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background: #EE5514;
+    border-radius: 7px;
+  }
+}

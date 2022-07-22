@@ -1,0 +1,51 @@
+.gallary{
+  padding: 80px 0;
+  &__top {
+    &-subtitle {
+      @include text($museo100, 20px, 150%, #EE5514)
+    }
+    &-title{
+      @include text($museo100, 44px, 130%, #1A0A03);
+      margin: 13px 0 16px;
+    }
+  }
+  &__categories{
+    display: flex;
+    column-gap: 40px;
+    margin: 0 0 60px;
+  }
+  &__categories-link{
+    @include text($museo200, 20px, 140%, #1A0A03);
+  }
+   &__link{
+     @include text($museo200, 18px, 140%, #1A0A03);
+     transition: 1s;
+     &:hover{
+       border-bottom: 1px solid #EE5514 ;
+       color: #EE5514;
+       transition: 1s;
+     }
+   }
+ &__bot{
+   display: flex;
+   column-gap: 30px;}
+   &__card {}
+
+     &__card-title {
+       @include text($museo100, 22px, 150%, #1A0A03);
+       margin: 10px 0 0 ;
+     }
+
+     &__card-size {
+       @include text($museo200, 16px, 160%, #1A0A03);
+       margin-bottom: 10px ;
+     }
+  &_card-price{
+    @include text($museo200, 16px, 160%, #1A0A03);
+    margin-bottom: 10px ;
+  }
+
+
+
+
+}

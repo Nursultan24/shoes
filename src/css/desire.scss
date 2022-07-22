@@ -1,0 +1,52 @@
+.desire{
+  padding: 150px 0 140px;
+  &__info-title{
+    @include text($museo100,44px,130%,#EE5514)
+  }
+  &__info-desc{
+    margin:20px 0 50px;
+    @include text($museo200,16px,160%,#1A0A03)
+  }
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 0 29px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-button-next{
+  right: -2px;
+}
+
+.swiper-button-prev{
+  left: -2px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

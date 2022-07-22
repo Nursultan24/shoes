@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__left">
+                <h1 class="header__title">
+                    <img class="header__logo" src="./src/images/logoImg.svg" alt="logo">
+                </h1>
+                <div class="header__nav">
+                    <a class="header__nav-link" href="./pages/about/index.html">About</a>
+                    <a class="header__nav-link" href="">Feature</a>
+                    <a class="header__nav-link" href="./pages/gallary/index.html">Gallary</a>
+                </div>
+            </div>
+                <div class="header__right">
+                    <button type="submit" class="btn buy_btn">Buy now</button>
+                </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="home">
+        <div class="container">
+            <div class="home__row">
+                <div class="home__left">
+                    <h2 class="home__title animate__animated animate__backInLeft">
+                        Life is better <br>
+                        in running <br>
+                        shoes.
+                    </h2>
+                    <p class="home__desc animate__animated animate__backInLeft">Lorem ipsum dolor sit amet, consectetur
+                        <br>adipiscing elit. Egestas leo ultrices </p>
+                </div>
+                <div class="home__right">
+                    <img class="home__img" src="./src/images/homeImg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="desire">
+        <div class="container">
+            <div class="desire__info">
+                <h3 class="desire__info-title wow animate__animated animate__fadeInTopLeft">
+                    Desire the feel of <br>
+                    satisfaction.
+                </h3>
+                <p class="desire__info-desc wow animate__animated animate__fadeInTopLeft">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices commauris risus.
+                </p>
+            </div>
+
+               <div class="swiper mySwiper">
+                   <div class="swiper mySwiper">
+                       <div class="swiper-wrapper">
+                           <div class="swiper-slide"><img src="./src/images/desire/puma1.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma2.jpg" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma3.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma4.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma5.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma6.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma7.webp" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma8.jpg" alt=""></div>
+                           <div class="swiper-slide"><img src="./src/images/desire/puma9.webp" alt=""></div>
+                       </div>
+                       <div class="swiper-pagination"></div>
+                   </div>
+                   <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+               </div>
+        
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="container">
+            <div class="feature__text">
+                <div class="feature__subtitle wow animate__animated animate__backInDown">
+                    FEATURE
+                </div>
+                <div class="feature__title wow animate__animated animate__backInDown">
+                    We have best feature in Shoes
+                </div>
+            </div>
+            <div class="feature__row">
+                <div class="feature__card">
+                    <span>
+                    <svg width="72" height="70" viewBox="0 0 72 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M68.3106 41.2744C70.04 39.4681 72 37.4313 72 34.7283C72 32.0252 70.04 29.9884 68.3106 28.1821C67.3175 27.3067 66.5002 26.2502 65.9022 25.0691C65.6726 23.7007 65.703 22.3013 65.9919 20.9442C66.3121 18.5102 66.6836 15.7559 65.1592 13.655C63.6219 11.5285 60.8677 11.0288 58.4465 10.5933C57.0818 10.4567 55.7557 10.0611 54.5393 9.42754C53.5759 8.48367 52.8057 7.36102 52.2719 6.12243C51.0933 3.93184 49.761 1.4466 47.2373 0.62673C44.8033 -0.167521 42.3181 1.02385 40.1275 2.07432C38.905 2.78641 37.5566 3.25616 36.1562 3.45785C34.7559 3.25616 33.4075 2.78641 32.185 2.07432C29.9944 1.02385 27.5092 -0.167521 25.0752 0.62673C22.5515 1.4466 21.2192 3.93184 20.0407 6.12243C19.5068 7.36102 18.7366 8.48367 17.7732 9.42754C16.5607 10.0594 15.2391 10.455 13.8788 10.5933C11.4448 11.0288 8.69056 11.5285 7.1533 13.655C5.62885 15.7559 6.00036 18.5102 6.32062 20.9442C6.60949 22.3013 6.63992 23.7007 6.41029 25.0691C5.81233 26.2502 4.99499 27.3067 4.00192 28.1821C2.27251 29.9884 0.3125 32.0252 0.3125 34.7283C0.3125 37.4313 2.27251 39.4681 4.00192 41.2744C4.99499 42.1498 5.81233 43.2063 6.41029 44.3874C6.63992 45.7558 6.60949 47.1552 6.32062 48.5123C6.00036 50.9463 5.62885 53.7006 7.1533 55.8015C8.69056 57.9281 11.4448 58.4277 13.866 58.8632C15.2307 58.9998 16.5568 59.3954 17.7732 60.029C18.7325 60.9763 19.5021 62.0981 20.0407 63.3341C21.2192 65.5247 22.5515 68.0099 25.0752 68.8298C27.5092 69.624 29.9944 68.4327 32.185 67.3822C33.4075 66.6701 34.7559 66.2003 36.1562 65.9987C37.5566 66.2003 38.905 66.6701 40.1275 67.3822C41.8019 68.3383 43.6638 68.9196 45.5848 69.086C46.1457 69.0887 46.7035 69.0022 47.2373 68.8298C49.761 68.0099 51.0933 65.5247 52.2719 63.3341C52.8057 62.0955 53.5759 60.9728 54.5393 60.029C55.7518 59.3971 57.0734 59.0015 58.4337 58.8632C60.8677 58.4277 63.6219 57.9281 65.1592 55.8015C66.6836 53.7006 66.3121 50.9463 65.9919 48.5123C65.703 47.1552 65.6726 45.7558 65.9022 44.3874C66.5002 43.2063 67.3175 42.1498 68.3106 41.2744ZM65.5307 38.6226C64.1062 39.8849 62.9851 41.4526 62.2512 43.2088C61.7938 45.1181 61.772 47.1059 62.1872 49.0248C62.4306 50.831 62.674 52.6886 62.0462 53.5469C61.4185 54.4052 59.5482 54.751 57.7547 55.0841C55.8145 55.2837 53.9424 55.9092 52.2719 56.916C50.815 58.185 49.6558 59.7597 48.8771 61.5278C48.006 63.1547 47.1092 64.8329 46.046 65.1788C45.0852 65.4991 43.407 64.692 41.7929 63.9105C40.0661 62.9177 38.1414 62.3185 36.1562 62.1555C34.1711 62.3185 32.2464 62.9177 30.5196 63.9105C28.9055 64.692 27.2273 65.4862 26.2666 65.1788C25.2033 64.8329 24.3065 63.1547 23.4354 61.5278C22.6567 59.7597 21.4975 58.185 20.0407 56.916C18.3701 55.9092 16.498 55.2837 14.5578 55.0841C12.7643 54.751 10.894 54.418 10.2663 53.5469C9.63854 52.6757 9.88194 50.831 10.1253 49.0248C10.5405 47.1059 10.5187 45.1181 10.0613 43.2088C9.32739 41.4526 8.20634 39.8849 6.7818 38.6226C5.48794 37.2775 4.15565 35.8812 4.15565 34.7283C4.15565 33.5753 5.48794 32.179 6.7818 30.8339C8.20634 29.5716 9.32739 28.0039 10.0613 26.2477C10.5187 24.3384 10.5405 22.3507 10.1253 20.4317C9.88194 18.6255 9.63854 16.7679 10.2663 15.9096C10.894 15.0513 12.7643 14.7055 14.5578 14.3724C16.498 14.1728 18.3701 13.5473 20.0407 12.5405C21.4975 11.2715 22.6567 9.69685 23.4354 7.92871C24.3065 6.30178 25.2033 4.6236 26.2666 4.27772C27.2273 3.95746 28.9055 4.76452 30.5196 5.54596C32.2464 6.53876 34.1711 7.13804 36.1562 7.30099C38.1414 7.13804 40.0661 6.53876 41.7929 5.54596C43.407 4.76452 45.0852 3.97027 46.046 4.27772C47.1092 4.6236 48.006 6.30178 48.8771 7.92871C49.6558 9.69685 50.815 11.2715 52.2719 12.5405C53.9424 13.5473 55.8145 14.1728 57.7547 14.3724C59.5482 14.7055 61.4185 15.0385 62.0462 15.9096C62.674 16.7808 62.4306 18.6255 62.1872 20.4317C61.772 22.3507 61.7938 24.3384 62.2512 26.2477C62.9851 28.0039 64.1062 29.5716 65.5307 30.8339C66.8246 32.179 68.1569 33.5753 68.1569 34.7283C68.1569 35.8812 66.8246 37.2775 65.5307 38.6226ZM36.1562 9.49159C31.1649 9.49159 26.2857 10.9717 22.1355 13.7447C17.9854 16.5178 14.7507 20.4592 12.8406 25.0706C10.9305 29.682 10.4307 34.7563 11.4045 39.6517C12.3783 44.5471 14.7818 49.0439 18.3112 52.5733C21.8406 56.1027 26.3374 58.5062 31.2328 59.48C36.1283 60.4538 41.2025 59.954 45.8139 58.0439C50.4253 56.1338 54.3667 52.8991 57.1398 48.749C59.9128 44.5988 61.3929 39.7196 61.3929 34.7283C61.3841 28.0378 58.7224 21.6239 53.9915 16.893C49.2607 12.1621 42.8467 9.5004 36.1562 9.49159ZM47.4551 32.6658L42.7024 37.2007L43.7272 43.6956C43.7654 43.9311 43.7366 44.1726 43.6441 44.3926C43.5517 44.6126 43.3993 44.8021 43.2043 44.9397C43.0093 45.0772 42.7797 45.1572 42.5414 45.1705C42.3032 45.1839 42.066 45.13 41.8569 45.0151L36.0666 41.8893L30.2122 44.8742C29.9994 44.9833 29.7603 45.0307 29.5219 45.011C29.2835 44.9913 29.0555 44.9052 28.8635 44.7626C28.6715 44.6199 28.5233 44.4264 28.4357 44.2038C28.348 43.9813 28.3244 43.7387 28.3675 43.5034L29.5588 37.0341L24.9086 32.3839C24.7427 32.2142 24.6271 32.0017 24.5749 31.7701C24.5227 31.5385 24.5358 31.297 24.6129 31.0724C24.6899 30.8479 24.8279 30.6492 25.0113 30.4985C25.1947 30.3478 25.4164 30.251 25.6516 30.219L32.1722 29.3478L35.1442 23.4935C35.2515 23.278 35.4173 23.0971 35.6226 22.9716C35.828 22.846 36.0645 22.7808 36.3052 22.7835C36.5459 22.7862 36.7809 22.8566 36.9834 22.9867C37.1859 23.1168 37.3476 23.3013 37.4501 23.5191L40.2812 29.4503L46.7761 30.4752C47.0113 30.5135 47.2311 30.6166 47.4109 30.773C47.5906 30.9293 47.7232 31.1327 47.7937 31.3603C47.8643 31.5879 47.8699 31.8306 47.8101 32.0612C47.7503 32.2918 47.6274 32.5012 47.4551 32.6658Z" fill="#1265E1"/>
+</svg>
+                    </span>
+                    <h3 class="feature__card-title">Quality</h3>
+                    <p class="feature__card-desc">Lorem ipsum dolor sit consectetur
+                        adipiscing elit. Viverra in ul</p>
+                    <a class="feature__card-link" href="">Read more
+                        <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 9L5 5L1 1" stroke="#1A0A03" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </a>
+                </div>
+                <div class="feature__card">
+                    <span>
+                    <svg width="70" height="69" viewBox="0 0 70 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M68.4776 27.9261C67.2446 20.4229 63.4674 16.7691 60.668 15.0502L60.2481 14.9855C60.2481 14.9855 54.4492 12.8722 49.6295 23.6898C53.4701 26.9189 54.1318 34.0435 52.6388 39.9291C50.6879 47.6043 41.9164 52.0188 41.9164 52.0188L39.3612 49.3794L31.6982 68.28H53.1539L50.5988 64.7042C50.5988 64.7042 59.1127 58.9164 62.8594 54.1479C66.6049 49.3794 70.5212 40.3564 68.4776 27.9261Z" fill="#5F2EEA"/>
+<path d="M20.1199 46.74C4.28355 26.6479 27.9526 16.0061 27.9526 16.0061L29.9951 19.0715L37.4884 0H16.0314L18.926 3.57576C15.0096 5.19333 9.47688 10.6418 9.47688 10.6418C9.47688 10.6418 -1.591 21.8806 0.195047 37.9721C1.98354 54.0636 11.7744 55.1697 11.7744 55.1697L31.0157 54.6594C26.1629 54.3188 20.1199 46.74 20.1199 46.74Z" fill="#5F2EEA"/>
+<path d="M38.3381 13.6231C32.8908 14.1334 30.3357 22.137 30.3357 22.137C26.4095 34.8335 23.3783 41.5736 21.8657 44.5511L21.6105 45.0822C25.0496 49.9398 28.7767 52.3265 32.8139 53.6608C35.5607 53.8647 39.6163 43.2509 39.6163 43.2509C43.0504 34.2829 44.7547 30.3103 47.7908 22.5631C48.2828 21.3227 50.6781 14.0552 56.0472 13.5779C52.4641 13.4631 42.7391 13.2104 38.3381 13.6231Z" fill="#5F2EEA"/>
+</svg>
+                    </span>
+                    <h3 class="feature__card-title">Flexible</h3>
+                    <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
+                    <a class="feature__card-link" href="">Read more
+                        <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 9L5 5L1 1" stroke="#1A0A03" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="feature__card">
+                    <span>
+                    <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.081 0.162109C59.0513 0.162109 76 17.1107 76 38.081C76 59.0513 59.0513 76 38.081 76C17.1107 76 0.162109 59.0513 0.162109 38.081C0.162109 17.1107 17.1107 0.162109 38.081 0.162109ZM30.8994 30.6122C33.1975 28.0268 36.932 27.165 40.6664 28.0268C46.1244 29.4631 49.2843 35.2084 47.848 40.3791L52.7315 43.2518L49.8589 48.1353L45.2626 45.2626C42.6773 47.848 38.9428 48.9971 35.2084 47.848C29.7504 46.4117 26.5904 40.9537 28.0268 35.4957L11.0782 25.7287L13.9508 20.8452L30.8994 30.6122ZM33.4848 36.6447C32.9103 39.2301 34.3466 41.8155 36.6447 42.39C39.2301 43.2518 41.8155 41.8155 42.39 39.2301C43.2518 36.6447 41.8155 34.0593 39.2301 33.4848C36.6447 32.9103 34.0593 34.3466 33.4848 36.6447ZM38.081 8.78005C54.1678 8.78005 67.382 21.707 67.382 38.081C67.382 54.1678 54.1678 67.382 38.081 67.382V62.2113C51.2952 62.2113 62.2113 51.2952 62.2113 38.081C62.2113 24.5796 51.2952 13.9508 38.081 13.9508V8.78005Z" fill="#AA21EA"/>
+</svg>
+
+                    </span>
+                    <h3 class="feature__card-title">Long Lasting</h3>
+                    <p class="feature__card-desc">Lorem ipsum dolor sit consectetur
+                        adipiscing elit. Viverra in ul</p>
+                    <a class="feature__card-link" href="">Read more
+                        <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 9L5 5L1 1" stroke="#1A0A03" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallary">
+        <div class="container">
+            <div class="gallary__top">
+                <p class="gallary__top-subtitle">GALLARY</p>
+                <h2 class="gallary__top-title">40+ YEARS’ EXPERIENCE</h2>
+            </div>
+            <div class="gallary__categories">
+                <p class="gallary__categories-link">Categories:</p>
+                <a class="gallary__link" href="">All</a>
+                <a class="gallary__link" href="">Male</a>
+                <a class="gallary__link" href="">Female</a>
+                <a class="gallary__link" href="">Kids</a>
+            </div>
+            <div class="gallary__bot">
+                <div class="gallary__card">
+                    <img class="gallary__card-img" src="./src/images/gallary/pumaRS.png" alt="">
+                    <h3 class="gallary__card-title">Puma RS-X Bold</h3>
+                    <p class="gallary__card-size">Size:Dubble-XL</p>
+                    <p class="gallary__card-price">Price:$200</p>
+                    <button class="btn">Buy now</button>
+                </div>
+                <div class="gallary__card">
+                    <img class="gallary__card-img" src="./src/images/gallary/pumaFe.png" alt="">
+                    <h3 class="gallary__card-title">Puma Ferrari</h3>
+                    <p class="gallary__card-size">Size:Dubble-XL</p>
+                    <p class="gallary__card-price">Price:$190</p>
+                    <button class="btn">Buy now</button>
+                </div>
+                <div class="gallary__card">
+                    <img class="gallary__card-img" src="./src/images/gallary/pumaRu.png" alt="">
+                    <h3 class="gallary__card-title">Puma Running</h3>
+                    <p class="gallary__card-size">Size:Dubble-XL</p>
+                    <p class="gallary__card-price">Price:$200</p>
+                    <button class="btn">Buy now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials__title">
+                Testimonials
+            </div>
+            <div class="testimonials__row">
+            <div class="testimonials__img">
+                <img src="./src/images/testimonials.png" alt="">
+            </div>
+            <div class="testimonials__info">
+                <img class="testimonials__info-img wow animate__animated animate__fadeInRight" src="./src/images/abram.png" alt="">
+                <h4 class="testimonials__info-title wow animate__animated animate__fadeInRight">
+                    Their services was best and friendly
+                </h4>
+                <p class="testimonials__info-desc wow animate__animated animate__fadeInRight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam.
+                </p>
+                <p class="testimonials__info-name wow animate__animated animate__fadeInRight">Abram Korsgaard</p>
+                <p class="testimonials__info-prof wow animate__animated animate__fadeInRight">Athletic</p>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="signup">
+        <div class="container">
+            <div class="signup__row">
+                <div class="signup__img">
+                <img src="./src/images/pumaimg.png" alt="">
+                </div>
+                <div class="signup__info">
+                    <h3 class="signup__info-title">Sign up to our Newsletter</h3>
+                    <p class="signup__info-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sagittis, Atiam lorem sed justo amet viverra in a.</p>
+                    <form class="signup__form">
+                    <input class="signup__form-input" type="email" placeholder="Enter your email address">
+                        <button  type="submit" class="btn signup__form-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__card-1">
+                <img src="./src/images/logoImg.svg" alt="">
+                <ul>
+                    <li class="footer__card-title">10 New Town Street, V2 <br>
+                        5NW, Newstate, USA.</li>
+                    <li class="footer__card-email">shovasatkhira88@gmail.com</li>
+                    <span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 0H2.5C1.12083 0 0 1.12064 0 2.49957V17.497C0 18.8751 1.12083 19.9966 2.5 19.9966H17.5C18.8783 19.9966 20 18.8751 20 17.497V2.49957C20 1.12064 18.8783 0 17.5 0Z" fill="#3B5999"/>
+                        <path d="M13.75 9.99839V7.49884C13.75 6.80896 14.31 6.87395 15 6.87395H16.25V3.74951H13.75C11.6783 3.74951 10 5.42754 10 7.49884V9.99839H7.5V13.1228H10V19.9966H13.75V13.1228H15.625L16.875 9.99839H13.75Z" fill="white"/>
+                    </svg>
+                   </span>
+                    <span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.6576 3.57648C19.4756 1.87123 18.1285 0.524177 16.4227 0.342332C12.1451 -0.114111 7.85492 -0.114111 3.57742 0.342332C1.87164 0.524329 0.524445 1.87123 0.342407 3.57648C-0.114136 7.85304 -0.114136 12.1424 0.342407 16.419C0.524445 18.1244 1.87164 19.4713 3.57727 19.6533C7.85477 20.1097 12.1451 20.1097 16.4227 19.6533C18.1285 19.4713 19.4756 18.1244 19.6576 16.419C20.1141 12.1424 20.1141 7.85319 19.6576 3.57648V3.57648Z" fill="url(#paint0_radial_23_77)"/>
+                        <path d="M18.5699 4.2996C18.4085 2.78643 17.2131 1.59118 15.6995 1.42963C11.9037 1.02476 8.09661 1.02476 4.30083 1.42963C2.78731 1.59118 1.59178 2.78643 1.43019 4.2996C1.02522 8.09449 1.02522 11.9007 1.43019 15.6954C1.59178 17.2087 2.78731 18.404 4.30083 18.5654C8.09661 18.9704 11.9037 18.9704 15.6993 18.5654C17.213 18.404 18.4085 17.2087 18.5699 15.6954C18.9751 11.9007 18.9751 8.09449 18.5699 4.2996V4.2996Z" fill="url(#paint1_linear_23_77)"/>
+                        <path d="M0.299316 16.0029C0.313049 16.1412 0.32724 16.2794 0.342041 16.4176C0.524078 18.1232 1.87128 19.4704 3.57706 19.6524C7.85455 20.1089 12.1449 20.1089 16.4224 19.6524C18.1281 19.4704 19.4752 18.1232 19.6572 16.4176C19.672 16.2794 19.6862 16.1412 19.7001 16.0029H0.299316Z" fill="url(#paint2_linear_23_77)"/>
+                        <path d="M19.6575 16.42C19.9028 14.1221 20.016 11.8205 19.9977 9.51927L15.4262 4.94878C14.8551 4.29692 14.0209 3.89006 13.0407 3.85482C11.0248 3.7822 9.00258 3.78586 6.98644 3.85512C5.31195 3.91279 4.14099 5.03802 3.8407 6.69185C3.78775 6.98384 3.75601 7.27964 3.71436 7.57376V12.4222C3.7374 12.5793 3.77127 12.7357 3.7818 12.8937C3.84894 13.8997 4.26245 14.7613 4.92453 15.3442L9.57661 19.9951C11.8596 20.0111 14.1428 19.8976 16.4226 19.6543C18.1284 19.4723 19.4754 18.1254 19.6575 16.42V16.42Z" fill="url(#paint3_linear_23_77)"/>
+                        <path d="M19.6575 16.4182C19.4756 18.1233 18.1281 19.4705 16.4226 19.6523C14.1431 19.8955 11.8595 20.0092 9.57673 19.9931L4.93164 15.3491C5.47012 15.8203 6.17203 16.1073 6.98655 16.1379C9.00224 16.2136 11.0249 16.2116 13.0406 16.139C14.8638 16.0731 16.183 14.7241 16.24 12.9013C16.3007 10.966 16.3007 9.02567 16.24 7.09036C16.214 6.24947 15.9188 5.50958 15.4293 4.94971L19.9979 9.51735C20.0159 11.8183 19.9027 14.1202 19.6575 16.4182Z" fill="url(#paint4_linear_23_77)"/>
+                        <path d="M12.3602 7.83293C11.7746 7.19541 10.9343 6.79541 10.0003 6.79541C8.2312 6.79541 6.79688 8.22942 6.79688 9.99814C6.79688 10.9319 7.19696 11.772 7.83462 12.3575L15.2463 19.7676C15.6386 19.7334 16.0309 19.6954 16.4229 19.6536C18.1286 19.4716 19.4758 18.1247 19.6579 16.4193C19.6997 16.0274 19.7377 15.6352 19.7719 15.243L12.3602 7.83293Z" fill="url(#paint5_linear_23_77)"/>
+                        <path d="M19.9613 12.1516L13.9964 6.18834C13.8572 6.00574 13.6379 5.88721 13.3906 5.88721C12.9698 5.88721 12.6284 6.22831 12.6284 6.64919C12.6284 6.89647 12.747 7.11568 12.9296 7.25481L19.8546 14.1782C19.9016 13.5029 19.9372 12.8273 19.9613 12.1516V12.1516Z" fill="url(#paint6_linear_23_77)"/>
+                        <path d="M3.71436 7.57371C3.75601 7.27959 3.78775 6.98379 3.8407 6.69181C4.14084 5.038 5.31195 3.91279 6.98644 3.85512C9.00258 3.78586 11.0248 3.7822 13.0407 3.85482C14.8632 3.92041 16.1831 5.26958 16.24 7.09226C16.3005 9.02767 16.3005 10.9678 16.24 12.9032C16.1831 14.7259 14.8636 16.0749 13.0408 16.1407C11.025 16.2134 9.00228 16.2153 6.9866 16.1396C5.16379 16.0711 3.90372 14.7189 3.7818 12.8935C3.77127 12.7356 3.7374 12.5791 3.71436 12.4219C3.71436 10.8058 3.71436 9.18968 3.71436 7.57371V7.57371ZM10.0016 15.0605C10.9241 15.0605 11.8476 15.0881 12.7689 15.0541C14.2135 15.0005 15.102 14.1386 15.1357 12.6958C15.1775 10.8979 15.1775 9.09769 15.1357 7.29973C15.102 5.8572 14.2128 4.97515 12.7689 4.94449C10.9362 4.90574 9.10146 4.90605 7.26873 4.94449C5.83578 4.97454 4.94467 5.83874 4.90576 7.2654C4.85632 9.08595 4.85632 10.9097 4.90576 12.7302C4.94467 14.1567 5.83578 15.001 7.26888 15.0541C8.17861 15.0879 9.09063 15.0605 10.0016 15.0605V15.0605Z" fill="url(#paint7_linear_23_77)"/>
+                        <path d="M3.71436 7.57371C3.75601 7.27959 3.78775 6.98379 3.8407 6.69181C4.14084 5.038 5.31195 3.91279 6.98644 3.85512C9.00258 3.78586 11.0248 3.7822 13.0407 3.85482C14.8632 3.92041 16.1831 5.26958 16.24 7.09226C16.3005 9.02767 16.3005 10.9678 16.24 12.9032C16.1831 14.7259 14.8636 16.0749 13.0408 16.1407C11.025 16.2134 9.00228 16.2153 6.9866 16.1396C5.16379 16.0711 3.90372 14.7189 3.7818 12.8935C3.77127 12.7356 3.7374 12.5791 3.71436 12.4219C3.71436 10.8058 3.71436 9.18968 3.71436 7.57371V7.57371ZM10.0016 15.0605C10.9241 15.0605 11.8476 15.0881 12.7689 15.0541C14.2135 15.0005 15.102 14.1386 15.1357 12.6958C15.1775 10.8979 15.1775 9.09769 15.1357 7.29973C15.102 5.8572 14.2128 4.97515 12.7689 4.94449C10.9362 4.90574 9.10146 4.90605 7.26873 4.94449C5.83578 4.97454 4.94467 5.83874 4.90576 7.2654C4.85632 9.08595 4.85632 10.9097 4.90576 12.7302C4.94467 14.1567 5.83578 15.001 7.26888 15.0541C8.17861 15.0879 9.09063 15.0605 10.0016 15.0605V15.0605Z" fill="white"/>
+                        <path d="M10.0003 6.7959C8.2312 6.7959 6.79688 8.22975 6.79688 9.99846C6.79688 11.7673 8.2312 13.2012 10.0003 13.2012C11.7696 13.2012 13.2037 11.7673 13.2037 9.99846C13.2037 8.22975 11.7696 6.7959 10.0003 6.7959ZM10.0003 12.0985C8.84018 12.0985 7.89978 11.1583 7.89978 9.99846C7.89978 8.83859 8.84018 7.8984 10.0003 7.8984C11.1604 7.8984 12.1008 8.83859 12.1008 9.99846C12.1008 11.1583 11.1604 12.0985 10.0003 12.0985Z" fill="white"/>
+                        <path d="M14.1526 6.64789C14.1526 7.06871 13.8114 7.40988 13.3906 7.40988C12.9698 7.40988 12.6284 7.06871 12.6284 6.64789C12.6284 6.22692 12.9698 5.88574 13.3906 5.88574C13.8114 5.88574 14.1526 6.22692 14.1526 6.64789Z" fill="white"/>
+                        <defs>
+                            <radialGradient id="paint0_radial_23_77" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.09989 17.4746) scale(22.0565 22.0516)">
+                                <stop stop-color="#FAE100"/>
+                                <stop offset="0.0544" stop-color="#FADC04"/>
+                                <stop offset="0.1167" stop-color="#FBCE0E"/>
+                                <stop offset="0.1829" stop-color="#FCB720"/>
+                                <stop offset="0.2514" stop-color="#FE9838"/>
+                                <stop offset="0.3054" stop-color="#FF7950"/>
+                                <stop offset="0.4922" stop-color="#FF1C74"/>
+                                <stop offset="1" stop-color="#6C1CD1"/>
+                            </radialGradient>
+                            <linearGradient id="paint1_linear_23_77" x1="7.67095" y1="8.68771" x2="-26.2076" y2="-10.3734" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#A1B5D8" stop-opacity="0"/>
+                                <stop offset="0.3094" stop-color="#90A2BD" stop-opacity="0.309804"/>
+                                <stop offset="0.7554" stop-color="#7C8B9C" stop-opacity="0.756863"/>
+                                <stop offset="1" stop-color="#748290"/>
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_23_77" x1="9.99965" y1="17.6498" x2="9.99965" y2="20.7672" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FAE100" stop-opacity="0"/>
+                                <stop offset="0.3068" stop-color="#FCA800" stop-opacity="0.305882"/>
+                                <stop offset="0.6275" stop-color="#FE7300" stop-opacity="0.627451"/>
+                                <stop offset="0.8685" stop-color="#FF5200" stop-opacity="0.866667"/>
+                                <stop offset="1" stop-color="#FF4500"/>
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_23_77" x1="8.8621" y1="8.83307" x2="3.91355" y2="3.8834" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#833AB4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#833AB4"/>
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_23_77" x1="13.7069" y1="18.2875" x2="11.2374" y2="6.64334" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#833AB4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#833AB4"/>
+                            </linearGradient>
+                            <linearGradient id="paint5_linear_23_77" x1="14.6474" y1="14.6442" x2="4.72672" y2="4.7214" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#833AB4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#833AB4"/>
+                            </linearGradient>
+                            <linearGradient id="paint6_linear_23_77" x1="15.3832" y1="8.64122" x2="12.1027" y2="5.35995" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#833AB4" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#833AB4"/>
+                            </linearGradient>
+                            <linearGradient id="paint7_linear_23_77" x1="13.9709" y1="6.05639" x2="5.88241" y2="14.1468" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#833AB4"/>
+                                <stop offset="0.0922" stop-color="#9C3495"/>
+                                <stop offset="0.2927" stop-color="#DC2546"/>
+                                <stop offset="0.392" stop-color="#FD1D1D"/>
+                                <stop offset="0.5589" stop-color="#FC6831"/>
+                                <stop offset="0.6887" stop-color="#FC9B40"/>
+                                <stop offset="0.7521" stop-color="#FCAF45"/>
+                                <stop offset="0.7806" stop-color="#FDB750"/>
+                                <stop offset="0.8656" stop-color="#FECB6A"/>
+                                <stop offset="0.9415" stop-color="#FFD87A"/>
+                                <stop offset="1" stop-color="#FFDC80"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    </span>
+                    <span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.4227 19.6542C12.1452 20.1107 7.85477 20.1107 3.57727 19.6542C1.87164 19.4722 0.524445 18.1253 0.342407 16.4198C-0.114136 12.143 -0.114136 7.85342 0.342407 3.57666C0.524445 1.87132 1.87164 0.524355 3.57727 0.342349C7.85477 -0.114116 12.1451 -0.114116 16.4226 0.342349C18.1284 0.524355 19.4756 1.87132 19.6576 3.57666C20.1141 7.85342 20.1141 12.143 19.6576 16.4198C19.4756 18.1253 18.1285 19.4722 16.4227 19.6542Z" fill="url(#paint0_linear_23_93)"/>
+                        <path d="M18.5699 4.29969C18.4085 2.78648 17.2131 1.5912 15.6995 1.42964C11.9037 1.02476 8.09661 1.02476 4.30083 1.42964C2.78731 1.5912 1.59178 2.78648 1.43019 4.29969C1.02522 8.09468 1.02522 11.901 1.43019 15.6958C1.59178 17.2092 2.78731 18.4044 4.30083 18.5659C8.09661 18.9709 11.9037 18.9709 15.6993 18.5659C17.213 18.4044 18.4085 17.2092 18.5699 15.6958C18.9751 11.901 18.9751 8.09468 18.5699 4.29969V4.29969Z" fill="url(#paint1_linear_23_93)"/>
+                        <path d="M0.299805 16.0049C0.313538 16.1431 0.327728 16.2814 0.342529 16.4196C0.524567 18.1252 1.87177 19.4724 3.57755 19.6545C7.85504 20.111 12.1454 20.111 16.4229 19.6545C18.1286 19.4724 19.4757 18.1252 19.6577 16.4196C19.6725 16.2814 19.6867 16.1431 19.7006 16.0049H0.299805Z" fill="url(#paint2_linear_23_93)"/>
+                        <path d="M19.9959 9.29563L15.8445 5.14505C15.3792 5.41096 14.9692 5.55849 14.6604 5.64026C14.4867 5.68679 14.345 5.71212 14.243 5.726C13.7749 5.24619 13.1212 4.94824 12.3976 4.94824C10.974 4.94824 9.81967 6.10222 9.81967 7.52592C9.81967 7.57733 9.82105 7.62813 9.8244 7.67878C9.83127 7.80221 9.84699 7.92349 9.87125 8.04142C9.27692 8.03257 7.34516 7.87391 5.50281 6.2949C5.50266 6.2949 5.50266 6.29475 5.50266 6.29475H5.5025L4.63367 5.42591C4.63367 5.42591 3.61438 7.20462 5.11295 8.55433C5.17871 8.62772 5.25104 8.70018 5.33023 8.77143C5.33649 8.77845 5.34305 8.78531 5.3493 8.79233C5.15262 8.77906 4.56104 8.72017 4.21863 8.47836C4.21863 8.47836 4.14981 9.56551 5.05573 10.3658L5.78723 11.1035C5.56445 11.1219 5.31802 11.1175 5.14667 11.0425C5.14667 11.0425 5.29834 11.6864 5.88458 12.2018L6.90936 13.2317C6.29459 13.5898 5.21838 14.0378 3.80176 13.9234L10.0183 19.9966C12.1543 19.996 14.2902 19.8819 16.4229 19.6542C18.1287 19.4722 19.4759 18.1253 19.6579 16.4199C19.9111 14.0476 20.0235 11.6713 19.9959 9.29563V9.29563Z" fill="url(#paint3_linear_23_93)"/>
+                        <path d="M16.1985 6.14611C15.756 6.37753 15.0895 6.48447 14.8685 6.51529C14.8667 6.50461 14.8649 6.49439 14.863 6.48417C15.6142 6.01964 15.8442 5.14504 15.8442 5.14504C15.3789 5.41094 14.9689 5.55846 14.6601 5.64023C14.4864 5.68676 14.3447 5.71193 14.2428 5.72597C13.7746 5.24603 13.1209 4.94824 12.3974 4.94824C10.9737 4.94824 9.81937 6.10202 9.81937 7.52581C9.81937 7.57707 9.82074 7.62803 9.8241 7.67852C9.83096 7.80194 9.84668 7.92322 9.87094 8.04115C9.18185 8.03092 6.6945 7.81964 4.63334 5.42589C4.63334 5.42589 3.48556 7.42803 5.4152 8.79568C5.4152 8.79568 4.63334 8.77127 4.21829 8.47822C4.21829 8.47822 4.09622 10.4074 6.31868 11.0176C6.31868 11.0176 5.53727 11.2132 5.14619 11.0422C5.14619 11.0422 5.53712 12.7026 7.49102 12.825C7.49102 12.825 6.08964 14.1077 3.80127 13.9231C4.92676 14.6355 6.26115 15.0479 7.69182 15.0479C11.7145 15.0479 14.9756 11.7876 14.9756 7.76578C14.9756 7.71559 14.9752 7.6654 14.9741 7.61521C14.9752 7.58546 14.9756 7.55587 14.9756 7.52581C14.9756 7.50491 14.9752 7.48401 14.9749 7.46311C15.7186 6.96761 16.1985 6.14611 16.1985 6.14611V6.14611Z" fill="white"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_23_93" x1="6.64039" y1="2.81148" x2="11.6975" y2="13.6333" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00C3FF"/>
+                                <stop offset="1" stop-color="#00B0ED"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_23_93" x1="14.2299" y1="12.2664" x2="-14.8248" y2="-3.32288" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00B0ED" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#00A2CE"/>
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_23_93" x1="10.0001" y1="17.0822" x2="10.0001" y2="19.7028" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00B0ED" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#00A2CE"/>
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_23_93" x1="19.1182" y1="18.8277" x2="9.3493" y2="9.05714" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00B0ED" stop-opacity="0"/>
+                                <stop offset="1" stop-color="#00A2CE"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    </span>
+                    <span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 19.9966C15.5228 19.9966 20 15.5202 20 9.99829C20 4.47639 15.5228 0 10 0C4.47715 0 0 4.47639 0 9.99829C0 15.5202 4.47715 19.9966 10 19.9966Z" fill="#273B7A"/>
+                        <path d="M19.7748 12.1135L13.6607 6.00049L8.56329 6.40729L5.95947 8.78378L6.29361 13.9534L12.0827 19.7783C15.9229 18.9648 18.9485 15.9482 19.7748 12.1135Z" fill="#121149"/>
+                        <path d="M10.2183 9.07857V10.9944H13.2151C12.7901 12.3658 11.5116 13.362 10.0003 13.362C8.14181 13.362 6.63513 11.8557 6.63513 9.99748C6.63505 8.13944 8.14165 6.63308 10.0002 6.63308C10.8687 6.63308 11.6578 6.96492 12.2548 7.505L13.661 5.99993C12.6964 5.11657 11.4114 4.57715 10.0002 4.57715C7.00595 4.57715 4.57861 7.0039 4.57861 9.99756C4.57861 12.9912 7.00595 15.418 10.0002 15.418C12.9945 15.418 15.4218 12.9912 15.4218 9.99756C15.4218 9.68395 15.3928 9.37742 15.3413 9.07857H10.2183Z" fill="#4285F4"/>
+                        <path d="M10 6.63359C10.8686 6.63359 11.6577 6.96551 12.2547 7.5057L13.6608 6.00031C12.6963 5.11668 11.4112 4.57715 10 4.57715C7.92355 4.57715 6.12066 5.74496 5.20996 7.4591L6.86449 8.78414C7.35207 7.52672 8.57035 6.63359 10 6.63359Z" fill="#EA4335"/>
+                        <path d="M6.6351 9.99904C6.6351 9.57021 6.71838 9.16166 6.86467 8.78451L5.21014 7.45947C4.8076 8.21717 4.57861 9.08123 4.57861 9.99908C4.57861 10.9212 4.80951 11.7891 5.21553 12.5493L6.86025 11.2015C6.71697 10.8275 6.6351 10.4233 6.6351 9.99904Z" fill="#FBBC05"/>
+                        <path d="M11.8714 12.7931C11.3362 13.1522 10.6936 13.3635 10.0006 13.3635C8.56629 13.3635 7.34492 12.4646 6.86055 11.2007L5.21582 12.5485C6.1284 14.2569 7.92836 15.4198 10.0005 15.4198C11.3462 15.4198 12.5764 14.9285 13.5242 14.1168L11.8714 12.7931Z" fill="#34A853"/>
+                        <path d="M15.4217 9.99779C15.4217 9.68412 15.3928 9.37752 15.3412 9.07861H10.2183V10.9948H13.215C12.9849 11.7376 12.5031 12.3685 11.871 12.7926L13.5238 14.1163C14.685 13.1219 15.4217 11.6463 15.4217 9.99779Z" fill="#4285F4"/>
+                    </svg>
+                    </span>
+                </ul>
+            </div>
+            <div class="footer__card-2">
+                <ul>
+                    <li class="footer__card-name">Our services</li>
+                    <li class="footer__card-desc">About us</li>
+                    <li class="footer__card-desc">Feature</li>
+                    <li class="footer__card-desc">Gallary</li>
+                </ul>
+            </div>
+            <div class="footer__card-3">
+                <ul>
+                    <li class="footer__card-name">Support</li>
+                    <li class="footer__card-desc">Privacy & Policy</li>
+                    <li class="footer__card-desc">Terms & Condition</li>
+                    <li class="footer__card-desc">Support System</li>
+                </ul>
+            </div>
+            <div class="footer__card-4">
+                <ul>
+                    <li class="footer__card-name">Contact us</li>
+                    <li class="footer__card-desc">Lorem ipsum dolor sit amet consectetur adipiscin.</li>
+                    <form class="footer__form">
+                        <input class="footer__form-input" type="email" placeholder="Mail address">
+                        <button  type="submit" class="btn footer__form-btn">Send</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+        <h4 class="footer__end">Copyright 2021 The PUMA All Rights Reserved.</h4>
+    </div>
+</footer>
+
+
+
+
+<div class="overlay">
+    <div class="popup">
+        <div class="popup__close">&#10006</div>
+         <div class="popup__buy">
+             <img class="popup__img" src="./src/images/logoImg.svg" alt="">
+             <form class="popup__form" action="">
+                 <h2 class="popup__form-title">PUMA Kyrgyzstan</h2>
+                 <input  class="popup__form-input" name="name" placeholder="Имя" type="text">
+                 <input  class="popup__form-input" name="phone" placeholder="Телефон" type="tel">
+                 <label class="popup__form-label">
+                     <input type="checkbox">
+                     <span class="popup__form-label-text">Я принимаю пользовательское <br>
+                         соглашение</span>
+                 </label>
+                 <button class="popup__btn" type="submit">Отправить</button>
+             </form>
+         </div>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+
+    var swiper = new Swiper(".mySwiper", {
+        loop:true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        speed:2000,
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script src="./src/js/main.js"></script>
+</body>
+</html>
