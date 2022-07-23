@@ -489,12 +489,8 @@
   padding: 10px 60px 10px 15px;
 }
 .footer__form-btn {
-  width: 80px;
-  height: 50px;
   position: absolute;
-  right: 0;
-  top: 0;
-  padding: 10px;
+  height: 50px;
 }
 .footer__end {
   margin-top: 60px;
@@ -694,8 +690,9 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
-.btn .btn:hover {
+.btn:hover {
   background: #ADFF2F;
   -webkit-transition: 1s;
   transition: 1s;
+  color: black;
 }
